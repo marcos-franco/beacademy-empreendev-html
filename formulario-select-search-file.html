@@ -1,0 +1,56 @@
+<fieldset>
+    
+<!--SELECTION
+    Elementos de formulário, capaz de criar uma lista de opções
+    a serem selecionadas (DROPDOWN)  
+-->
+
+<label for="teacher">Professores:</label>
+    <select name="select-teacher" id="teacher" size="3">
+        <option value="">Selecione um professor</option>
+        <option value="Moacir Garcia">Moacir Garcia</option>
+        <option value="Luan Santos">Luan Santos</option>
+        <option value="Jenifer Vieira">Jenifer Vieira</option>
+        <option value="Regis Santos">Regis Santos</option>
+        <option value="Rogerio da Silva">Rogerio da Silva</option>
+        
+    </select>
+    <br>
+
+    <!--selection - Teacher = (Luan Santos, Moacir Garcia) -->
+
+<button type="Submit">Enviar</button>
+
+<!--INPUT SEARCH
+    * Elemento usado para pesquisar conteúdo.
+    * Parecido com o campo "TEXT" Pode receber atributos e componentes 
+-->
+<br>
+<br>
+
+<input 
+type="search"
+name="" 
+title="Busque por id de até 3 digitos"
+placeholder="Busque por id de até 3 digitos"
+size="24"
+pattern="[0-9]{0,3}"
+required
+>
+
+
+<!--INPUT SEARCH
+    Mnipulando arquivos com file.
+    * O usuário poderá fazer upload de 1 ou mais arquivos, de acordo 
+    com a extensão. 
+-->
+
+
+<input
+ type="File"
+ value=""
+ name=""
+ id="" 
+ accept=".xls, .doc, .pdf, audio/*, image/*, .png, .jpg" multiple>
+
+</fieldset>
