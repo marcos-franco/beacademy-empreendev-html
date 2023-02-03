@@ -16,7 +16,7 @@ HTML - Formulários - Textarea e Optgroup HTML - SEO.
 ### Status do Projeto:
 100% Concluído
 
-### Autor:
+### Autor: Prof. Luan Monteiro
 Projeto desenvolvido por [Marcos Franco](https://www.linkedin.com/in/marcosfranco-5b1a8a111/)
 
 ### Contatos:
